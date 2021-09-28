@@ -1,4 +1,4 @@
-package one.digitalinnovation.diglonebank
+package one.digitalinnovation.digonebank
 
 //obs: rever a biblioteca importada
 

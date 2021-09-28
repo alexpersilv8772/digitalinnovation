@@ -1,9 +1,9 @@
-package one.digitalinnovation.diglonebank
+package one.digitalinnovation.digonebank
 //Primeira classe criada dentro do pacote one.digitalinnovation.diglonebank
 class Pessoa {
     var name :  String  =  " Alexandre "
     var cpf :  String  =  " 123.123.123-11 "
-    private set // Servir para que uma cpf variável não seja alterada em outro lugar na aplicação. Ela atribui
+        private set // Servir para que uma cpf variável não seja alterada em outro lugar na aplicação. Ela atribui
     // um valor fixo.
 
     // classe interna Endereco {// classe interna - classe interna ->

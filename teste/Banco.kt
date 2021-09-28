@@ -1,7 +1,7 @@
 //TESTE
-package one.digitalinnovation.diglonebank.teste
+package one.digitalinnovation.digonebank.teste
 
-import one.digitalinnovation.diglonebank.Banco //Instancia a classe Banco com seus membros
+import one.digitalinnovation.digonebank.Banco //Instancia a classe Banco com seus membros
 
 fun main (){
     val digionebank = Banco(nome = "Digionebank",13)
