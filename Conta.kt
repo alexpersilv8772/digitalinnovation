@@ -1,12 +1,13 @@
 package one.digitalinnovation.diglonebank
 
-//import kotlin.math  obs: rever a biblioteca importada
+//obs: rever a biblioteca importada
 
-class Conta {
-    val agencia: String
-    val numConta: String
-    val saldo:  //Rever o tipo posteriormente.
-}
+class Conta (
+    val agencia: String,
+    val numConta: String,
+    val saldo: Float //Rever o tipo posteriormente.
+
+) {
     fun depositos(valor: Float) {
 
     }
@@ -14,5 +15,4 @@ class Conta {
     fun saque(valor: Float) {
 
     }
-
 }
