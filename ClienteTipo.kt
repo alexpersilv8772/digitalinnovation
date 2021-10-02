@@ -5,8 +5,8 @@ package one.digitalinnovation.digonebank
 //Pode ter construtor. Pode ter funções e propriedades.
 //Não pode herdar de classes, apenas de interfaces.
 
-enum class ClienteTipo (descricao: String) {
-    PJ("Pessoa Física"), //Criou objetos com seus tipos dentro da ENUM
-    PF("Pessoa Jurídica"); //Criou objetos com seus tipos dentro da ENUM
+enum class ClienteTipo (val descricao: String) {
+    PF("Pessoa Física"), //Criou objetos com seus tipos dentro da ENUM
+    PJ("Pessoa Jurídica"); //Criou objetos com seus tipos dentro da ENUM
 
 }
