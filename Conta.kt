@@ -1,11 +1,11 @@
 package one.digitalinnovation.digonebank
 
-//obs: rever a biblioteca importada
+import java.math.BigDecimal //Importa da biblioteca Java Math o tipo de vriável BigDecimal
 
 class Conta (
     val agencia: String,
     val numConta: String,
-    val saldo: Float //Rever o tipo posteriormente.
+    val saldo: BigDecimal
 
 ) {
     fun depositos(valor: Float) {

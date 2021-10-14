@@ -1,7 +1,7 @@
 package one.digitalinnovation.digonebank
 
 data class Banco(
-    val nome: String,
+    val name: String,
     val numBco: Int
 )
 //Não é incomum criar classes cujo objetivo principal é armazenar dados. Em tais classes, algumas funcionalidades

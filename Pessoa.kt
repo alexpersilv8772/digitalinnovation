@@ -25,8 +25,6 @@ abstract class Pessoa (//Classe abstrata -> Classe Mãe
     // primário é uma parte do cabeçalho da classe e vai depois do nome da classe e dos parâmetros de tipo
     // opcionais.
 
-}
-
 //Função principal para teste
 //fun main () {
     //val suaIdentidade =  Pessoa () // A variável suaIndetidade recebe uma classe (instância) Pessoa com
